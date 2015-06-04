@@ -1,0 +1,32 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width,initial-scale=1')
+    title Animatez
+    //- link(rel="stylesheet", href="/styles/animatez.css")
+    link(rel="stylesheet", href="/styles/example.css")
+  body
+    .item Item 1
+    .item Item 2
+    .item.hides--hidden Item 3
+    label.switch
+      input.switch__input(type='checkbox', id='switch')
+      | Switch me
+
+    .wrap
+      .wrap__content
+        h3 First
+        p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      .wrap__content.wrap__content--hidden
+        h3 Second
+        p Magni ex maiores commodi dignissimos eveniet itaque est.
+      .wrap__content.wrap__content--hidden
+        h3 Third
+        p Sit dolore nemo. Totam fugiat, ipsam repudiandae facere.
+      .wrap__content.wrap__content--hidden
+        h3 Fourth
+        p Asperiores voluptate, dolore possimus dignissimos repudiandae tempore a eius. Inventore, eveniet, nam.
+
+    script(src='/scripts/animatez.js')
+    script(src='/scripts/example.js')
