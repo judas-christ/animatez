@@ -19,7 +19,3 @@ document.body.addEventListener('click', function(e) {
   animatez.addClass('wrap__content--hidden', target);
   animatez.removeClass('wrap__content--hidden', next);
 }, false);
-
-document.querySelector('.switch__input').addEventListener('change', function(e) {
-  e.target.parentNode.classList.toggle('switch--on');
-}, false);
